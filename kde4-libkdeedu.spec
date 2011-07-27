@@ -29,6 +29,7 @@ Summary:	Header files for libkdeedu development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających libkdeedu
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Obsoletes:	kde4-kdeedu-devel
 
 %description devel
 Header files for libkdeedu development.
