@@ -12,8 +12,8 @@ Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
 # Source0-md5:	10e59e1b68ffa940637a16369fef88da
 URL:		http://www.kde.org/
-BuildRequires:	lcms-devel
-BuildRequires:	libjpeg-devel
+BuildRequires:	kde4-kdelibs-devel
+BuildRequires:	phonon-devel
 BuildRequires:	rpmbuild(macros) >= 1.164
 Obsoletes:	kde4-libkdeedu
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
