@@ -5,12 +5,12 @@
 Summary:	KDcraw libary
 Summary(pl.UTF-8):	Biblioteka KDcraw
 Name:		libkdeedu
-Version:	4.7.2
+Version:	4.7.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	c746d2e0b0b745c668ad165b8dd15fa0
+# Source0-md5:	7af222698e8181b28052852bfe82af22
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	phonon-devel
