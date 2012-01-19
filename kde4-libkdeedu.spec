@@ -1,16 +1,16 @@
 %define         _state          stable
 %define		orgname		libkdeedu
-%define         qtver           4.7.4
+%define         qtver           4.8.0
 
 Summary:	KDcraw libary
 Summary(pl.UTF-8):	Biblioteka KDcraw
 Name:		libkdeedu
-Version:	4.7.4
+Version:	4.8.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	81812b255f159926f4d8a6c14b572bc9
+# Source0-md5:	b984c0e5ea4d9101b150773f4d92c71f
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	phonon-devel
