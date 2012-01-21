@@ -4,7 +4,7 @@
 
 Summary:	KDcraw libary
 Summary(pl.UTF-8):	Biblioteka KDcraw
-Name:		libkdeedu
+Name:		kde4-libkdeedu
 Version:	4.8.0
 Release:	1
 License:	GPL v2+
@@ -15,7 +15,7 @@ URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	phonon-devel
 BuildRequires:	rpmbuild(macros) >= 1.164
-Obsoletes:	kde4-libkdeedu < 4.6.99
+Obsoletes:	libkdeedu < 4.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -29,7 +29,7 @@ Summary:	Header files for libkdeedu development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających libkdeedu
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Obsoletes:	kde4-kdeedu-devel < 4.6.99
+Obsoletes:	kdeedu-devel < 4.8.0
 
 %description devel
 Header files for libkdeedu development.
@@ -38,7 +38,7 @@ Header files for libkdeedu development.
 Pliki nagłówkowe dla programistów używających libkdeedu.
 
 %prep
-%setup -q
+%setup -q -n %{orgname}-%{version}
 
 %build
 install -d build
