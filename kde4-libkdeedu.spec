@@ -2,15 +2,15 @@
 %define		orgname		libkdeedu
 %define         qtver           4.8.0
 
-Summary:	KDcraw libary
-Summary(pl.UTF-8):	Biblioteka KDcraw
+Summary:	Libraries used by KDE education applications
+Summary(pl.UTF-8):	Biblioteki używane przez aplikacje edukacyjne KDE
 Name:		kde4-libkdeedu
-Version:	4.9.0
+Version:	4.9.1
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	6d563265cfe021641c996007e45c3a76
+# Source0-md5:	d46a204ca14d9cc613ebfd39d696ecd5
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	phonon-devel
