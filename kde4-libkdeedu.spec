@@ -5,12 +5,12 @@
 Summary:	Libraries used by KDE education applications
 Summary(pl.UTF-8):	Biblioteki używane przez aplikacje edukacyjne KDE
 Name:		kde4-libkdeedu
-Version:	4.11.1
+Version:	4.11.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	c6a9e60cdccb5d5b381e498f96df824b
+# Source0-md5:	21945ac200824eb276fe81f0b8296a94
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	phonon-devel
