@@ -6,7 +6,7 @@ Summary:	Libraries used by KDE education applications
 Summary(pl.UTF-8):	Biblioteki używane przez aplikacje edukacyjne KDE
 Name:		kde4-libkdeedu
 Version:	4.14.3
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
